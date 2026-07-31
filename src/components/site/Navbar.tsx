@@ -37,7 +37,7 @@ export function Navbar() {
           <img
             src={IMG.logo}
             alt={`${COMPANY.name} logo`}
-            className="h-14 w-auto object-contain sm:h-16 lg:h-20 xl:h-24"
+            className="h-16 w-auto object-contain sm:h-18 lg:h-20 xl:h-24"
           />
         </Link>
 
