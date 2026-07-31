@@ -87,12 +87,13 @@ hover:text-white
           onClick={() => setOpen((v) => !v)}
           aria-expanded={open}
           aria-label={open ? "Close menu" : "Open menu"}
-          className={cn(
-            "inline-flex h-11 w-11 shrink-0 items-center justify-center border transition-colors lg:hidden",
-            solid ? "border-border text-ink" : "border-background/40 text-background",
-          )}
+          className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-md border border-gray-300 bg-white text-gray-900 transition-colors hover:bg-gray-100 lg:hidden"
         >
-          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          {open ? (
+            <X className="h-5 w-5 text-gray-900" />
+          ) : (
+            <Menu className="h-5 w-5 text-gray-900" />
+          )}
         </button>
       </nav>
 
