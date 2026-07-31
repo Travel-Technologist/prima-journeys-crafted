@@ -31,13 +31,13 @@ export function Navbar() {
     >
       <nav
         aria-label="Primary"
-        className="mx-auto flex h-24 max-w-7xl items-center justify-between px-10"
+       className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:h-24 lg:px-10"
       >
         <Link to="/" className="flex min-w-0 items-center" aria-label={`${COMPANY.name} — Home`}>
           <img
             src={IMG.logo}
             alt={`${COMPANY.name} logo`}
-            className="h-20 w-auto object-contain lg:h-24"
+            className="h-14 w-auto object-contain sm:h-16 lg:h-20 xl:h-24"
           />
         </Link>
 
