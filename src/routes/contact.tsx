@@ -11,7 +11,7 @@ export const Route = createFileRoute("/contact")({
       { title: "Contact PT Prima Gen International | Jakarta, Indonesia" },
       { name: "description", content: "Contact PT Prima Gen International in South Jakarta — address, email, phone and business hours for luxury travel planning across Southeast Asia." },
       { property: "og:title", content: "Contact PT Prima Gen International" },
-      { property: "og:description", content: "AXA Tower 45th Floor, South Jakarta. Email info@xxxxxxx. Monday to Friday, 09:00 – 18:00." },
+      { property: "og:description", content: "AXA Tower 45th Floor, South Jakarta. Email info@ptprimagenintl.com. Monday to Friday, 09:00 – 18:00." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

@@ -2,8 +2,8 @@ export const COMPANY = {
   name: "PT PRIMA GEN INTERNATIONAL",
   shortName: "Prima Gen International",
   tagline: "Crafting Exceptional Journeys Across Southeast Asia",
-  email: "info@xxxxxxx",
-  phone: "+62 XXX XXX XXXX",
+  email: "info@ptprimagenintl.com",
+  phone: "+628 7819900019",
   hours: ["Monday – Friday", "09:00 AM – 06:00 PM"],
   address: [
     "AXA Tower 45th Floor",
